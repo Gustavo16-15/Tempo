@@ -1,0 +1,17 @@
+name: Tenpo
+description: Um aplicativo simples de previsão do tempo em Flutter
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2  # Use a versão mais recente disponível
+
+flutter:
+  uses-material-design: true  # Habilita o uso de design material
